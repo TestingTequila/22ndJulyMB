@@ -1,13 +1,15 @@
-package _collections;
+package _9collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class LearningArrayList {
 
 	public static void main(String[] args) {
 
-             ArrayList<Integer> list = new ArrayList<>(); 
+             //ArrayList<Integer> list = new ArrayList<>(); 
+		     List<Integer> list = new ArrayList<>();
              list.add(12);
              list.add(45);
              list.add(100);

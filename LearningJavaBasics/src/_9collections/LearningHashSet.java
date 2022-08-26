@@ -1,13 +1,15 @@
-package _collections;
+package _9collections;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
 public class LearningHashSet {
 
 	public static void main(String[] args) {
 
-            HashSet<Integer> set = new HashSet<>();
+            //HashSet<Integer> set = new HashSet<>();
+            Set<Integer> set = new HashSet<>();
             set.add(12);
             set.add(45);
             set.add(100);
